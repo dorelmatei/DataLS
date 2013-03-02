@@ -1,0 +1,13 @@
+package com.datals.analytics.access;
+
+public class AnalyticsAccessTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

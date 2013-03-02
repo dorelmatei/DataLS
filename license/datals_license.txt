@@ -1,0 +1,9 @@
+  
+------------------------------------------------------------------
+DataLS Licensing                                                                                                                    
+------------------------------------------------------------------
+
+DataLS is fully open source software licensed under LGPL (Lesser General Public License), a non-reciprocal free and open source license approved as such by the Free Software Foundation and the Open Source Initiative.                                               
+------------------------------------------------------------------
+
+Cluj-Napoca, Romania, 2013 

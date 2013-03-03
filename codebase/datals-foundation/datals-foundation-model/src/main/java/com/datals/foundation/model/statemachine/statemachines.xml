@@ -1,0 +1,35 @@
+
+<statemachines>
+  
+  <statemachine name="my_state_machine">
+  
+      <states>
+      
+       <state name="my_state">
+          <inaction></inaction>
+          <doaction></doaction>
+          <outaction></outaction>
+       </state>
+       <state name="your_state" final="true">
+          <inaction></inaction>
+          <doaction></doaction>
+          <outaction></outaction>
+       </state>
+          
+      </states>
+      
+      <transitions>
+      
+      <transition name="transit">
+           <source>my_state</source>
+           <target>your_state</target>
+           <event>state_changed</event>
+           <guard>check_values</guard>
+           <doaction>log</doaction>
+      </transition>
+
+      </transitions>
+  
+  </statemachine>
+
+</statemachines>

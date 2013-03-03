@@ -11,6 +11,7 @@ Tasks:
 1.8. Tomcat setup
 1.9. PMD profile in Maven pom.xml
 1.10 Create code style template for Eclipse
+1.11 Establish initial branching strategy
 
 2. Integration with Data Provider
 2.1. Research/Choose for specific Data Provider

@@ -7,7 +7,7 @@ import java.util.Set;
  * @author dorel
  *
  */
-public interface ServiceRegistryProxy {
+public interface ServiceRegistry {
 
 	void registerService(String serviceName, String endPoint);
 	

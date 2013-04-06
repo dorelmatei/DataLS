@@ -1,4 +1,4 @@
-package com.datals.foundation.model.service;
+package com.datals.foundation.api.service;
 
 import java.util.Set;
 
@@ -11,7 +11,9 @@ public interface ServiceRegistry {
 
 	void registerService(String serviceName, String endPoint);
 	
-	void unregisterServiceEndPoint(String serviceName);
+	void registerService(String serviceName, Set<String> endPoints);
+	
+	void unregisterService(String serviceName);
 	
 	Set<String> getServiceEndPoints(String serviceName);
 }

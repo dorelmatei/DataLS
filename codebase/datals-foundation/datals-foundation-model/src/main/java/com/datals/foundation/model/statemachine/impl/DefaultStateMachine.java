@@ -1,9 +1,12 @@
 package com.datals.foundation.model.statemachine.impl;
 
+import java.util.Set;
+
 import com.datals.foundation.model.statemachine.api.State;
 import com.datals.foundation.model.statemachine.api.StateChangeListener;
 import com.datals.foundation.model.statemachine.api.StateEvent;
 import com.datals.foundation.model.statemachine.api.StateMachine;
+import com.datals.foundation.model.statemachine.api.Transition;
 
 /**
  * 
@@ -14,6 +17,16 @@ public class DefaultStateMachine implements StateMachine {
 	
 	private StateMachineContext context;
 	private StateMachineController controller;
+	
+	@Override
+    public Set<State> getStates() {
+		return null;
+	}
+	
+	@Override
+	public Set<Transition> getTransitions() {
+		return null;
+	}
 	
 	@Override
 	public State getCurrentState() {

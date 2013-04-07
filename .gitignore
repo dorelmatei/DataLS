@@ -1,0 +1,21 @@
+# common ignores
+.class
+.classpath
+.project
+.settings
+.idea
+bin
+target
+*~
+*~bak
+*-bak
+*.bak
+*-new
+*.rej
+*.orig
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.gpd.*
+*cpJar*

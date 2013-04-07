@@ -2,7 +2,7 @@ About Data Lifecycle Services
 =============================
 
 
-## Description ## 
+## Description 
 
 DataLS provides a modular, extensible Java-based  architecture for data lifecycle and analytics 
 
@@ -19,6 +19,5 @@ DataLS provides a modular, extensible Java-based  architecture for data lifecycl
 
 ## How to build ##
 
-Go to codebase :
-
-	$ mvn clean install
+* Go to datals/codebase/ :
+$ mvn clean install

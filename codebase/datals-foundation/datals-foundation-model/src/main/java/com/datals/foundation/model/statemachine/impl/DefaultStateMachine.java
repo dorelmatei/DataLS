@@ -1,4 +1,9 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
+
+import com.datals.foundation.model.statemachine.api.State;
+import com.datals.foundation.model.statemachine.api.StateChangeListener;
+import com.datals.foundation.model.statemachine.api.StateEvent;
+import com.datals.foundation.model.statemachine.api.StateMachine;
 
 /**
  * 
@@ -7,7 +12,6 @@ package com.datals.foundation.model.statemachine;
  */
 public class DefaultStateMachine implements StateMachine {
 	
-	private String id;
 	private StateMachineContext context;
 	private StateMachineController controller;
 	
@@ -29,11 +33,6 @@ public class DefaultStateMachine implements StateMachine {
 	@Override
 	public void removeStateChangeListener(StateChangeListener listener) {
 		controller.removeStateChangeListener(listener);
-	}
-
-	@Override
-	public String getId() {
-		return id;
 	}
 
 	@Override

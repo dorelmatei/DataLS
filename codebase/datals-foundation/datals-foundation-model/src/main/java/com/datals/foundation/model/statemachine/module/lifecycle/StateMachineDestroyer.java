@@ -1,4 +1,4 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.module.lifecycle;
 
 /**
  * 

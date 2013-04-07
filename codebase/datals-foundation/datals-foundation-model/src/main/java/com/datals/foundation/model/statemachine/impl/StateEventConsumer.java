@@ -1,6 +1,8 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
 
 import com.datals.foundation.model.base.Consumer;
+import com.datals.foundation.model.statemachine.api.StateEvent;
+import com.datals.foundation.model.statemachine.api.StateMachine;
 
 /**
  * 

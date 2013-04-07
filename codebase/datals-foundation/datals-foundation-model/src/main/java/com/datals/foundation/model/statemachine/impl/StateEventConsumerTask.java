@@ -1,7 +1,9 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
+
+import com.datals.foundation.model.statemachine.api.StateEvent;
 
 public class StateEventConsumerTask implements Runnable {
 

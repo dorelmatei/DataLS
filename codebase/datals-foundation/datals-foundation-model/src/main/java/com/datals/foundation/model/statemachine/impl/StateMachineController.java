@@ -1,4 +1,7 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
+
+import com.datals.foundation.model.statemachine.api.StateChangeListener;
+import com.datals.foundation.model.statemachine.api.StateEvent;
 
 /**
  * 

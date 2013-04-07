@@ -1,7 +1,10 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
 
 import java.util.HashSet;
 import java.util.Set;
+
+import com.datals.foundation.model.statemachine.api.StateChangeListener;
+import com.datals.foundation.model.statemachine.api.StateEvent;
 
 /**
  * 

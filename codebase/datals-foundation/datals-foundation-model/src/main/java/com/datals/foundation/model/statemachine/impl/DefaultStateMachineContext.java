@@ -1,7 +1,9 @@
-package com.datals.foundation.model.statemachine;
+package com.datals.foundation.model.statemachine.impl;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import com.datals.foundation.model.statemachine.api.State;
 
 public class DefaultStateMachineContext implements StateMachineContext {
 	

@@ -1,16 +1,23 @@
+About Data Lifecycle Services
+=============================
 
 
-## About DataLS (Data Lifecycle Services)
+## Description ## 
 
 DataLS provides a modular, extensible Java-based  architecture for data lifecycle and analytics 
 
-[1]: Data Acquisition
-[2]: Data Storage and Organization
-[3]: Data Analytics
-[4]: Data Visualization
+* Data Acquisition
+* Data Storage and Organization
+* Data Analytics
+* Data Visualization
+
+## Requirements ##
+
+* Java 1.6 or later
+* Maven 3.0
 
 
-## How to build
+## How to build ##
 
 Go to codebase :
 

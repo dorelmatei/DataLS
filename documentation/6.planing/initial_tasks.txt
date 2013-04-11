@@ -1,9 +1,9 @@
-Tasks:
-------
+Sprint 0 tasks:
+---------------
 1. Project Setup
-1.1. Maven
-1.2. Clean up pom.xml
-1.3. Main code skeleton
+1.1. Maven															... done
+1.2. Clean up pom.xml												... done
+1.3. Main code skeleton												... in progress
 1.4. Research Nexus/Artifactory online integrated with Git
 1.5. JUnit integration (mockito incl)
 1.6. Log4j dependencies
@@ -19,8 +19,18 @@ Tasks:
 2.3. Test connector (Unit tests)
 
 3. Business Services mechanism
-3.1. Registry
-3.2. Runtime discovery (annotation based: service, method, ...)
+3.1. Juice integration
+
+4. Salesforce dummy connector/data - sandbox
+
+5. HBase data access
+
+6. Analytics - Data set manager
+
+
+Backlog tasks:
+--------------
+- Find public dummy data
 
 4. Component & Extension points mechanism
 4.1. Build component mechanism

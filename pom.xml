@@ -2,25 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.intersections.ibis</groupId>
-    <artifactId>ibis-root</artifactId>
+    <groupId>com.datals</groupId>
+    <artifactId>datals-root</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.0-SNAPSHOT</version>
-    <name>IBIS-ROOT</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>datals-root</name>
 
     <modules>
-        <module>Common</module>
-        <module>Analytics</module>
-        <module>Capture</module>
-        <module>DataBridge</module>
-        <module>Services</module>
-        <module>Tools</module>
-        <module>smr</module>
+        <module>datals-foundation</module>
+        <module>datals-platform</module>
+        <module>datals-tools</module>
     </modules>
 
     <scm>
         <connection>scm:git:git@github.com:dorelmatei/DataLS.git</connection>
-        <developerConnection>scm:git:git@github.com:ThreePillarGlobal/IBIS.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:dorelmatei/DataLS.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
@@ -32,7 +28,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hibernate.version>4.1.7.Final</hibernate.version>
         <slf4j.version>1.7.2</slf4j.version>
-        <shiro.version>1.2.1</shiro.version>
         <skip.assembly>true</skip.assembly>
         <assembly.plugin.version>2.3</assembly.plugin.version>
         <common.dir>common</common.dir>
@@ -48,12 +43,12 @@
 
     <distributionManagement>
         <repository>
-            <id>ibis-releases</id>
-            <url>${repository.server}/nexus/content/repositories/IBIS-Releases</url>
+            <id>datals-releases</id>
+            <url>${repository.server}/nexus/content/repositories/DataLS-Releases</url>
         </repository>
         <snapshotRepository>
-            <id>ibis-snapshots</id>
-            <url>${repository.server}/nexus/content/repositories/IBIS-Snapshots</url>
+            <id>datals-snapshots</id>
+            <url>${repository.server}/nexus/content/repositories/DataLS-Snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -189,7 +184,7 @@
                                 <goal>unpack-dependencies</goal>
                             </goals>
                             <configuration>
-                                <includeGroupIds>com.intersections.ibis</includeGroupIds>
+                                <includeGroupIds>com.datals</includeGroupIds>
                                 <includeScope>runtime</includeScope>
                                 <includes>*.properties, *.json</includes>
                                 <excludes>log4j.properties</excludes>
